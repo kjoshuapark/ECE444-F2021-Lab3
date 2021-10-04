@@ -20,6 +20,7 @@ Note: this was the screenshot taken after running the command docker build --net
 
 ## Activity 5
 A functional requirement that I would like to improve upon is the web app's response to a user query that does not involve a keyword. I have noticed when I was using the tool that you can have all the filters for Year, Division/Department and Campus selected but if you do not have a keyword then no results will display once pressing "search". This may be the intended behaviour but I believe it would be useful if you could find all relevant results according to the applied filters even when entering no keywords. A user might actually want to explore all courses within a specific department to learn more about the department as a whole rather than look for specific courses right away.
+
 A non-functional requirement that I would like to touch upon is the readability and convenience of a search result page. When you choose to display a large number of results per block (e.g. 10 results per block), the text that is displayed, specifically in the Description column, can appear very crowded due to the large volumn of text. I would put a bit of padding in-between each row so that they are easy to distinguish. Also each block is not on a page-to-page basis similar to Google's web browser search results. For Education Pathways, all the results appear on one page and each block is separated by a horizontal line. It may be preferable to have a page system so that a user does not have to scroll through one long web page in order to see all the results.
 
 
